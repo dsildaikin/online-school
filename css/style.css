@@ -1,0 +1,860 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+body {
+    background-color: white;
+}
+
+.main_container {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.title {
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.top_menu {
+    display: flex;
+    width: 533px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.top_menu.drop_menu {
+    display: flex;
+    width: 533px;
+    align-items: end;
+}
+
+.menu_1_row {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu_1_row.drop_menu {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.header__btns {
+    display: flex;
+}
+
+.social_network_item {
+    display: inline-block;
+}
+
+.menu_link {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    color: black;
+}
+
+.short_info {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.short_text {
+    height: 63%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.short_title,
+.strengths_title,
+.price_block_title,
+.achievements_title,
+.advantages_school_title,
+.teacher_title,
+.feedbacks_title,
+.faq_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+}
+
+.short_description,
+.text,
+.price_block_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    color: black;
+}
+
+.short_description {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.signup {
+    height: 65px;
+    width: 332px;
+    border-radius: 51px;
+    background-color: lightpink;
+}
+
+.signup_button {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main_picture {
+    width: 40%;
+}
+
+.round {
+    border-radius: 300px;
+}
+
+.achievements_school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.achievements_title {
+    margin-top: 40px;
+}
+
+.achievements_school_items {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.achievements_school_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.text_bold {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: black;
+}
+
+.achievements_school_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: black;
+}
+
+.strengths {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.strengths_title {
+    margin-bottom: 70px;
+}
+
+.strengths_items {
+    list-style: none;
+}
+
+.strengths_item {
+    background: url('../images/check_mark.svg') no-repeat 0 30px;
+    padding-left: 100px;
+    margin-bottom: 40px;
+}
+
+.alena_link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #3479DF;
+}
+
+.text_bold_s {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+    margin-bottom: 18px;
+}
+
+.price_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 94px;
+}
+
+.price_block_text {
+    margin-top: 37px;
+    margin-bottom: 54px;
+}
+
+.price_up_text,
+.timer_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: black;
+}
+
+.timer {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 87px;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: black;
+}
+
+.timer_text {
+    list-style: none;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-bottom: 63px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product_title,
+.product_title_bold {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: black;
+}
+
+.product_title_bold {
+    font-weight: 700;
+}
+.product_title_block {
+    margin-top: 40px;
+    margin-bottom: 47px;
+}
+
+.product_column {
+    height: 100%;
+    background-color: #e7fffb;
+    border-radius: 51px;
+    width: 406px;
+}
+
+.product_text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    margin-bottom: 25px;
+}
+
+.product_main_title {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    width: 368px;
+    list-style-position: inside;
+    margin-bottom: 80px;
+}
+
+.product_main_title_text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: black;
+}
+
+.product_price_z,
+.product_price_z_first {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: lowercase;
+    color: black;
+}
+
+.product_price_z_first {
+    margin-top: 30px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 51px;
+}
+
+.btn_column {
+    text-align: center;
+    width: 269px;
+    height: 65px;
+    border-radius: 51px;
+    background-color: lightpink;
+}
+
+.signup_column {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.free_webinar {
+    margin-top: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.free_webinar_title {
+    height: 51px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: black;
+    background: url('../images/gift_box.svg') no-repeat 0;
+    padding-left: 65px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.free_webinar_title_bold {
+    font-weight: 600;
+}
+
+.free_webinar_description {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.free_webinar_button {
+    width: 332px;
+    height: 65px;
+    border-radius: 51px;
+    background-color: lightpink;
+    margin-top: 24px;
+}
+
+.free_webinar_button_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: black;
+}
+
+.advantages_school {
+    margin-top: 97px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantage_school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.advantages_rows {
+    margin-top: 62px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+}
+
+.advantages_1_row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.advantages_2_row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.advantage_img {
+    margin-bottom: 25px;
+}
+
+.advantage_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+}
+
+.advantage_text {
+    width: 550px;
+    margin-top: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.teacher {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teacher_name {
+    margin-bottom: 5px;
+}
+
+.teacher_info {
+    display: flex;
+    margin-top: 54px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.teacher_info_text {
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+}
+
+.teacher_name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 46px;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+}
+
+.teacher_instagram {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.035em;
+    text-decoration-line: underline;
+    color: #1856F8;
+    background: url('../images/teacher_instagram.svg') no-repeat 0;
+    padding-top: 5px;
+    height: 27px;
+    padding-left: 35px;
+}
+
+.teacher_advantages {
+    margin-top: 58px;
+    list-style: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: black;
+}
+
+.main_2_img {
+    width: 100%;
+}
+
+.teacher_text {
+    width: 90%;
+    margin-top: 54px;
+    list-style: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: black;
+}
+
+.teacher_text_1 {
+    margin-bottom: 40px;
+}
+
+.teacher_text_3 {
+    margin-top: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+}
+
+.feedbacks {
+    margin-top: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedbacks_slider {
+    display: flex;
+    align-items: center;
+}
+
+/*.feedbacks__slide {*/ /*auto-width slided ON*/
+/*    width: 900px;*/
+/*    height: 600px;*/
+/*}*/
+
+.feedbacks__btn-prev-slide, .feedbacks__btn-next-slide {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.feedbacks__btn-prev-slide {
+    margin-right: 50px;
+}
+
+.feedbacks__btn-next-slide {
+    margin-left: 50px;
+}
+
+.feedbacks_title {
+    margin-bottom: 40px;
+}
+
+.feedbacks_button {
+    margin-top: 150px;
+    width: 439px;
+    height: 73px;
+    border-radius: 51px;
+    background-color: lightpink;
+}
+
+.feedbacks_button_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+}
+
+.feedback_img {
+    width: 100%;
+}
+
+.faq {
+    margin-top: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq_title {
+    margin-bottom: 40px;
+}
+
+.questions_answers {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.questions_answer {
+    display: flex;
+    flex-direction: column;
+}
+
+.question_title {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: black;
+}
+
+.answer,
+.answer_warranty,
+.answer_mb_0 {
+    margin-left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: black;
+    margin-bottom: 35px;
+}
+
+.answer_warranty {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.answer_mb_0 {
+    margin-bottom: 0;
+}
+
+.new_questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new_questions_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+.new_questions_button {
+    margin-top: 50px;
+    width: 348px;
+    height: 65px;
+    border-radius: 51px;
+    background-color: lightpink;
+}
+
+.new_questions_button_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: black;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_logo {
+    margin-top: 59px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_title {
+    width: 188px;
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: black;
+}
+
+.contacts_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.contact_number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: black;
+    padding-left: 40px;
+}
+
+.company_documents {
+    margin-top: 118px;
+    margin-bottom: 97px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.company_agreements,
+.company_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.company_agreement_link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #1856F8;
+}
+
+.company_info_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: black;
+}
+
+.arrow {
+    background-color: white;
+}

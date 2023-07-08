@@ -1,0 +1,63 @@
+@media screen and (max-width: 850px) {
+   .products {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .product_column {
+      margin-bottom: 20px;
+   }
+}
+
+ /* burger start */
+@media (max-width: 1111px) {
+   .top_menu {
+      display: none;
+   }
+
+   .top_menu.active {
+      display: flex;
+   }
+
+   .hamb {
+      display: flex;
+      justify-content: center;
+      height: 53px;
+      width: 53px;
+      border-radius: 50%;
+   }
+
+   .hamb:hover {
+      background-color: rgb(245, 245, 245);
+   }
+   
+   .hamb:active {
+      background-color: rgb(235, 235, 235);
+   }
+
+   .hamb__field {
+      padding: 10px 20px;
+      cursor: pointer;
+   }
+
+   .bar {
+      display: block;
+      width: 30px;
+      height: 3px;
+      margin: 6px auto;
+      background-color: #000;
+      transition: 0.2s;
+   }
+
+   .hamb__field.active .bar:nth-child(2) {
+      opacity: 0;
+   }
+   .hamb__field.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+   }
+   .hamb__field.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+   }
+}
+/* burger end */
